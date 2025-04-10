@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePUSTKALYA for SCHOOL EDUCATION</title>
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            background-color: #283E50;
+            width: 100%;
+            height: 40px;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            display: inline-block;
+            padding: 8px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar a:hover {
+            background-color: #4c27a2;
+        }
+
+        .header-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            position: relative;
+        }
+
+        .firstimg {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .secondimg {
+            width: 10%;
+            position: absolute;
+            top: 60px;
+            left:260px;
+        }
+
+        .over-text {
+            position: absolute;
+            top: 70%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            color:black;
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            font-family: the seasons;
+        }
+
+        .section {
+            text-align: center;
+            padding: 20px;
+            background-color: #EACCCC;
+            margin: 20px 0;
+        }
+
+        .books-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .book-link {
+            width: 150px;
+            text-align: center;
+        }
+
+        .book-link img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #003A6D;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+            width: 100%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-section">
+        <img src="image\seimg.png" alt="SCHOOL EDUCATION" class="firstimg">
+        <img src="image\logo.png" class="secondimg">
+        <div class="over-text" >Welcome to ePUSTKALYA!
+            <marquee direction="left" scrollamount="10" scrolldelay="100">
+                <p style="font-size:25px;">Explore our vast collection of digital books, articles, and resources at your fingertips. Happy reading!</p>
+             </marquee>
+        </div>
+    </div>
+
+    <main>
+        <section class="section">
+            <h2>Primary School (1-5 Standard)</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\aemr101.pdf" target="_blank"><img src="image\aemr1cc1.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\bejm102.pdf" target="_blank"><img src="image\bejm1cc2.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\chve103.pdf" target="_blank"><img src="image\chve1cc3.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\dhap104.pdf" target="_blank"><img src="image\dhap1cc4.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\bejm105.pdf" target="_blank"><img src="image\eulb1cc5.jpg" alt="Book Cover"></a></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Middle School (6-8 Standard)</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\aemr101.pdf" target="_blank"><img src="image\aemr1cc1.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\bejm102.pdf" target="_blank"><img src="image\bejm1cc2.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\chve103.pdf" target="_blank"><img src="image\chve1cc3.jpg" alt="Book Cover"></a></div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>High School (9-10  Standard))</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\aemr101.pdf" target="_blank"><img src="image\aemr1cc1.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\bejm102.pdf" target="_blank"><img src="image\bejm1cc2.jpg" alt="Book Cover"></a></div>
+        </section>
+        <section class="section">
+            <h2>Higher Secondary School (11-12  Standard)</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\aemr101.pdf" target="_blank"><img src="image\aemr1cc1.jpg" alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\bejm102.pdf" target="_blank"><img src="image\bejm1cc2.jpg" alt="Book Cover"></a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+            <p>&copy; 2025 ePUSTKALYA | All Rights Reserved of ePUSTKALYA</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePUSTKALYA for LITERATURE</title>
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            background-color: #283E50;
+            width: 100%;
+            height: 40px;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            display: inline-block;
+            padding: 8px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar a:hover {
+            background-color: #27a235;
+        }
+
+        .header-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            position: relative;
+        }
+
+        .firstimg {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .secondimg {
+            width: 10%;
+            position: absolute;
+            top: 60px;
+            left:250px;
+        }
+
+        .over-text {
+            position: absolute;
+            top: 70%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            color: #5b1c0e;
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            font-family: the seasons;
+        }
+
+        .section {
+            text-align: center;
+            padding: 20px;
+            background-color: #85beed;
+            margin: 20px 0;
+        }
+
+        .books-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0px;
+        }
+
+        .book-link {
+            width: 150px;
+            text-align: center;
+        }
+
+        .book-link img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #003A6D;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+            width: 100%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-section">
+        <img src="image/lrimg.png" alt="LITERATURE" class="firstimg">
+        <img src="image\logo.png" class="secondimg">
+        <div class="over-text">Welcome to ePUSTKALYA!
+            <marquee direction="left" scrollamount="10" scrolldelay="100">
+                <p style="font-size:25px;">Explore our vast collection of digital books, articles, and resources at your
+                    fingertips. Happy reading!</p>
+            </marquee>
+        </div>
+    </div>
+
+    <main>
+        <section class="section">
+            <h2>Novels</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\bc-1.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-2.pdf" target="_blank"><img src="image\bc-2.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-3.pdf" target="_blank"><img src="image\bc-3.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-6.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-5.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\gc-1.png"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\m-4.jpeg"
+                            alt="Book Cover"></a></div>
+
+            </div>
+        </section>
+        <section class="section">
+            <h2>Short Stories</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\bc-1.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-2.pdf" target="_blank"><img src="image\bc-2.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-3.pdf" target="_blank"><img src="image\bc-3.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-6.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-5.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\gc-1.png"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\m-4.jpeg"
+                            alt="Book Cover"></a></div>
+
+            </div>
+        </section>
+        <section class="section">
+            <h2>Poetry</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\bc-1.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-2.pdf" target="_blank"><img src="image\bc-2.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-3.pdf" target="_blank"><img src="image\bc-3.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-6.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-5.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\gc-1.png"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\m-4.jpeg"
+                            alt="Book Cover"></a></div>
+
+            </div>
+        </section>
+        <section class="section">
+            <h2>drama</h2>
+            <div class="books-container">
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-4.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\bc-5.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-6.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-5.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\m-1.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\m-2.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-3.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-4.pdf" target="_blank"><img src="image\bc-1.jpg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-5.pdf" target="_blank"><img src="image\m-4.jpeg"
+                            alt="Book Cover"></a></div>
+                <div class="book-link"><a href="sebookpdf\b-1.pdf" target="_blank"><img src="image\gc-1.png"
+                            alt="Book Cover"></a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ePUSTKALYA | All Rights Reserved of ePUSTKALYA</p>
+    </footer>
+</body>
+
+</html>

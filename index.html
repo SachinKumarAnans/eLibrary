@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO ePUSTKALYA</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\SACHIN KUMAR\OneDrive\Desktop\ebook\image\logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-y: scroll;
+            /* Full body scroll */
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            /* Ensures it's on top of other content */
+            background-color: #283E50;
+            width: 100%;
+            height: 40px;
+            /* overflow: hidden; */
+
+        }
+
+        .logo img {
+            height: 40px;
+            /* Set the logo size */
+            width: auto;
+            display: flex;
+            justify-content: flex-start;
+            width: auto;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .navbar li {
+            color: rgb(213, 53, 53);
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            display: inline-block;
+            padding: 8px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar a:hover {
+            background-color: #4c27a2;
+        }
+
+        .header-section {
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-around;
+            padding: 10;
+            height: 400px;
+            position: relative;
+        }
+
+        .firstimg {
+            position: relative;
+            margin-top: 40px;
+            width: 100%;
+            height: 400px;
+            /* border-radius: 8px 8px 0 0; */
+            object-fit: cover;
+            /* Ensures image covers the entire div */
+
+        }
+
+        .secondimg {
+            width: 10%;
+            position: absolute;
+            top: 80px;
+            left: 320px;
+
+        }
+
+        .over-text {
+            position: absolute;
+            top: 70%;
+            left: 29%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            font-family: the seasons;
+        }
+
+        .category {
+            margin-top: 40px;
+            height: 450px;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 10px;
+            background-color: #edefe9;
+        }
+
+        .school {
+            position: relative;
+            width: 30%;
+            height: 430px;
+            text-align: center;
+            background-color: white;
+            border-radius: 8px;
+            margin: 7px;
+        }
+
+        .school img {
+            width: 100%;
+            height: 40%;
+            border-radius: 8px 8px 0 0;
+            object-fit: cover;
+            /* Ensures image covers the entire div */
+        }
+
+        .school text {
+            position: absolute;
+            text-align: center;
+        }
+
+        .aboutsection {
+            position: relative;
+            height: 360px;
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background-color: #eacccc;
+            padding: 10px;
+
+
+        }
+
+        #aboutus {
+            position: absolute;
+            height: 20px;
+            margin: 10px;
+            text-align: center;
+            background-color: #FF5757;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        #about {
+
+            height: 40px;
+            margin: 8px;
+            text-align: left;
+            padding: 40px;
+
+
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            line-height: 2;
+        }
+
+        footer {
+            background-color: #0b2237;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home </a></li>
+                <li><a href="#aboutus">About Us </a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="header-section">
+        <img src="image\ePUSTKALYA (2).png" alt="SCHOOL EDUCATION" class="firstimg">
+        <img src="image\logo.png" class="secondimg">
+        <div class="over-text">Welcome to ePUSTKALYA!
+            <marquee direction="left" scrollamount="10" scrolldelay="100">
+                <p style="font-size:25px;">Explore our vast collection of digital books, articles, and resources at your
+                    fingertips. Happy reading!</p>
+            </marquee>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="school"><a href="se.html" target="_blank">
+                <img src="image\se.jpg" alt="SCHOOL EDUCATION">
+                <h3 class="text">SCHOOL EDUCATION</h3>
+            </a>
+            <ul>
+                <li>Primary School </li>
+                <li>Middle School </li>
+                <li>High School </li>
+                <li>Higher Secondary </li>
+            </ul>
+        </div>
+        <div class="school"><a href="he.html" target="_blank">
+                <img src="image\he.jpg" alt="HIGHER EDUCATION">
+                <h3 class="text">HIGHER EDUCATION</h3>
+            </a>
+            <ul>
+                <li>Undergraduate </li>
+                <li>Postgraduate </li>
+            </ul>
+        </div>
+        <div class="school"><a href="cd.html" target="_blank">
+                <img src="image\cd.jpg" alt="CAREER DEVELOPMENT">
+                <h3 class="text">CAREER DEVELOPMENT</h3>
+            </a>
+            <ul>
+                <li>Entrance Examinations</li>
+                <li>Recruitment Examinations</li>
+            </ul>
+        </div>
+        <div class="school"><a href="lr.html" target="_blank">
+                <img src="image\output-onlinepngtools (1).png" alt="LITERATURE">
+                <h3 class="text">LITERATURE</h3>
+            </a>
+            <ul>
+                <li>Novels</li>
+                <li>Short Storis</li>
+                <li>poetry</li>
+                <li>drama</li>
+            </ul>
+
+        </div>
+        <div class="school"><a href="rs.html" target="_blank">
+                <img src="image\rs.jpg" alt="RELIGIOUS & SPIRITUAL">
+                <h3 class="text">RELIGIOUS & SPIRITUAL</h3>
+            </a>
+            <ul>
+                <li>Hinduism</li>
+                <li>Buddhism</li>
+                <li>Meditation & Mindfulness</li>
+                <li>Yoga & Spirituality</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="aboutsection">
+        <div id="aboutus">About Us</div>
+        <div id="about">Welcome to <b>ePUSTKALYA</b>, where every page turns into an adventure! <br><br>
+            At <b>ePUSTKALYA</b>, we believe that stories have the power to transport you to new worlds, ignite your
+            imagination, and inspire your creativity. Our mission is to provide a vast collection of ebooks that caters
+            to
+            every reader's taste, from thrilling mysteries and heartwarming romances to mind-bending science fiction and
+            enlightening non-fiction.<br><br>
+            Founded by a team of passionate bibliophiles and tech enthusiasts, we’ve created a
+            user-friendly platform that makes accessing your favorite books easier than ever. With just a few clicks,
+            you
+            can dive into a digital library filled with thousands of titles, all available at your fingertips!<br><br>
+            But we’re not just about books; we’re about community! Join our vibrant network of readers, share your
+            favorite
+            titles, and discover new authors through our personalized recommendations. Whether you’re a casual reader or
+            a
+            literary aficionado, there’s something here for everyone.<br><br>
+            So, grab your virtual library card and embark on your next reading journey with us. Let’s turn the page
+            together!<br>
+            Happy reading! <br><br>
+            Feel free to customize it with your library's name and any specific details you’d like to include!
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 ePUSTKALYA | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
